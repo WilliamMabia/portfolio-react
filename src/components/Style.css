@@ -1,0 +1,40 @@
+/*Navbar*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding: 25px 50px;
+}
+
+#navbar .logo{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+#navbar .active{
+    color: #000;
+}
+
+#navbar .menu {
+    display: flex;
+    justify-content: space-between;
+    color: #a1a1a6;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    
+}
+
+NavLink .menu:hover{
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+    cursor: pointer;
+}
+
+#navbar .current {
+    color: #000;
+}
+  
+  
