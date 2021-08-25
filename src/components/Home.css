@@ -1,0 +1,46 @@
+#home {
+  height: 100vh;
+}
+
+#landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  padding: 0px 280px;
+}
+
+#landing-page .memoji {
+  height: 150px;
+}
+
+#landing-page h1 {
+  font-weight: 700px;
+}
+
+#landing-page p {
+  padding: 1px;
+}
+
+/*Content*/
+.content {
+  display: grid;
+  grid-template-areas:
+    "left right"
+    "bottom bottom";
+  grid-gap: 1rem;
+}
+
+.top-left {
+  grid-area: left;
+  text-align: center;
+}
+
+.top-right {
+  grid-area: right;
+}
+
+.bottom {
+  grid-area: bottom;
+}
