@@ -1,3 +1,46 @@
 .projects {
-  padding: 0px 200px;
+  padding: 50px 200px;
+}
+
+.list {
+  display: grid;
+  grid-template-areas:
+    "one two"
+    "three four";
+  grid-gap: 50px;
+  text-align: center;
+  padding: 30px 200px;
+}
+
+.project-1 {
+  grid-area: one;
+  background-color: #111;
+  border-radius: 5px;
+  padding: 10px 10px;
+  padding-bottom: 20px;
+}
+.project-2 {
+  grid-area: two;
+  background-color: #111;
+  border-radius: 5px;
+  padding: 10px 10px;
+  padding-bottom: 20px;
+}
+.project-3 {
+  grid-area: three;
+  background-color: #111;
+  border-radius: 5px;
+  padding: 10px 10px;
+  padding-bottom: 20px;
+}
+.project-4 {
+  grid-area: four;
+  background-color: #111;
+  border-radius: 5px;
+  padding: 10px 10px;
+  padding-bottom: 20px;
+}
+
+.project-title {
+  padding-bottom: 10px;
 }
