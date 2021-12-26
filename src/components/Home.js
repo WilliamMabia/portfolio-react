@@ -76,38 +76,41 @@ function Home() {
   return (
     <main>
       <section id="landing-page">
-        <div class="top-left">
-          <img class="memoji" src={image} alt="profile picture" />
-        </div>
-
-        <div class="top-right">
-          <p>
-            <span class="text-em">Hi </span>My name's{" "}
-            <span
-              class="txt-type"
-              data-wait="3000"
-              data-words='["Will", "William"]'
-            ></span>
-          </p>
-        </div>
-
-        <div class="bottom">
-          <Link to="./contact">
-            <p class="text-grey">
-              I specialize in
-              <span class="text-primary">
-                {" "}
-                software engineering, full-stack development, and user
-                experience design
-              </span>{" "}
-              with a passion for building products for the future.
+        <div className="container">
+          <div class="top-left">
+            <img class="memoji" src={image} alt="profile picture" />
+          </div>
+          <div class="top-rt">
+            <h1>Hi</h1>
+          </div>
+          <div class="top-rb">
+            <p>
+              My name's {/*<span class="text-em">Hi </span>My name's{" "}*/}
+              <span
+                class="txt-type"
+                data-wait="3000"
+                data-words='["Will", "William"]'
+              ></span>
             </p>
-          </Link>
-          <p class="text-grey">
-            I am at my best when working with a team under tough constraints to
-            deliver beautiful, usable, scalable solutions that add value to the
-            lives of human beings everywhere.
-          </p>
+          </div>
+          <div class="bottom">
+            <Link to="./contact">
+              <p class="text-grey">
+                I specialize in
+                <span class="text-primary">
+                  {" "}
+                  software engineering, full-stack development, and user
+                  experience design
+                </span>{" "}
+                with a passion for building products for the future.
+              </p>
+            </Link>
+            <p class="text-grey">
+              I am at my best when working with a team under tough constraints
+              to deliver beautiful, usable, scalable solutions that add value to
+              the lives of human beings everywhere.
+            </p>
+          </div>
         </div>
       </section>
     </main>

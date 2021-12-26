@@ -15,14 +15,17 @@ function NavBar() {
         </div>
         <div className="menu">
           <NavLink to="/" exact activeClassName="text-primary">
+            Home
+          </NavLink>
+          <NavLink to="/" exact activeClassName="text-primary">
             About
           </NavLink>
           <NavLink to="/projects" activeClassName="text-primary">
             Projects
           </NavLink>
-          <NavLink to="/resume" target="_blank" activeClassName="text-primary">
+          {/* <NavLink to="/resume" target="_blank" activeClassName="text-primary">
             Resume
-          </NavLink>
+          </NavLink>*/}
           <NavLink to="/contact" activeClassName="text-primary">
             Contact
           </NavLink>

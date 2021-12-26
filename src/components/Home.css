@@ -8,7 +8,17 @@
   align-items: center;
   justify-content: center;
   height: 80vh;
-  padding: 0px 280px;
+  padding: 0px 200px;
+}
+
+#landing-page .container {
+  display: grid;
+  grid-template-areas:
+    "left rt"
+    "left rb"
+    "bottom bottom";
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px 0px;
 }
 
 #landing-page .memoji {
@@ -24,23 +34,29 @@
 }
 
 /*Content*/
-.content {
-  display: grid;
-  grid-template-areas:
-    "left right"
-    "bottom bottom";
-  grid-gap: 1rem;
-}
 
-.top-left {
+#landing-page .top-left {
   grid-area: left;
-  text-align: center;
+  align-self: center;
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  padding: 0px 50px;
 }
 
-.top-right {
-  grid-area: right;
+.top-rt {
+  grid-area: rt;
+  font-size: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+.top-rb {
+  grid-area: rb;
+  display: flex;
+  align-items: flex-end;
 }
 
 .bottom {
+  padding-top: 20px;
   grid-area: bottom;
 }

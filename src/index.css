@@ -1,6 +1,6 @@
 @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,8 +14,9 @@ html {
 body {
   font-size: 1.5rem;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: normal;
+  font-weight: 500;
   padding: 5px;
-  background-color: #fff;
+  background-color: #000;
+  color: #fff;
   line-height: 1.5em;
 }
