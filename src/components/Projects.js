@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./Projects.css";
 import sanityClient from "../client.js";
+import { FaPython as Python } from "react-icons/fa";
+import { FaHtml5 as Html } from "react-icons/fa";
+import { FaCss3Alt as Css } from "react-icons/fa";
+import { FaReact as Rt } from "react-icons/fa";
+import { SiJavascript as Js } from "react-icons/si";
+import { SiC as Cpp } from "react-icons/si";
+import { FaJava as Java } from "react-icons/fa";
 
 function Project() {
   const [projectData, setProjectData] = useState(null);
@@ -41,7 +48,32 @@ function Project() {
               identify microplastics in images.
             </span>
           </div>
-          <div className="technologies"></div>
+          <div className="technologies">
+            <div className="lang-1">
+              <span className="icons">
+                <Python />
+              </span>
+              Python
+            </div>
+            <div className="lang-2">
+              <span className="icons">
+                <Html />
+              </span>
+              HTML
+            </div>
+            <div className="lang-3">
+              <span className="icons">
+                <Css />
+              </span>
+              CSS
+            </div>
+            <div className="lang-4">
+              <span className="icons">
+                <Rt />
+              </span>
+              React
+            </div>
+          </div>
         </div>
         <div className="project-2">
           <div className="project-title">KW Housing</div>
@@ -52,7 +84,32 @@ function Project() {
               waterloo region to rent houses
             </span>
           </div>
-          <div className="technologies"></div>
+          <div className="technologies">
+            <div className="lang-1">
+              <span className="icons">
+                <Python />
+              </span>
+              Python
+            </div>
+            <div className="lang-2">
+              <span className="icons">
+                <Html />
+              </span>
+              HTML
+            </div>
+            <div className="lang-3">
+              <span className="icons">
+                <Css />
+              </span>
+              CSS
+            </div>
+            <div className="lang-4">
+              <span className="icons">
+                <Rt />
+              </span>
+              React
+            </div>
+          </div>
         </div>
         <div className="project-3">
           <div className="project-title">Game Center</div>
@@ -63,7 +120,14 @@ function Project() {
               this website
             </span>
           </div>
-          <div className="technologies"></div>
+          <div className="technologies">
+            <div className="lang-1">
+              <span className="icons">
+                <Js />
+              </span>
+              JavaScript
+            </div>
+          </div>
         </div>
         <div className="project-4">
           <div className="project-title">Encryption Algorithms</div>
@@ -75,7 +139,20 @@ function Project() {
               achieving up to 66.98% compression rate on average.
             </span>
           </div>
-          <div className="technologies"></div>
+          <div className="technologies">
+            <div className="lang-1">
+              <span className="icons">
+                <Cpp />
+              </span>
+              C
+            </div>
+            <div className="lang-2">
+              <span className="icons">
+                <Java />
+              </span>
+              Java
+            </div>
+          </div>
         </div>
       </div>
       {/*<section className="project">
