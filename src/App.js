@@ -6,6 +6,7 @@ import Post from "./components/Post";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
+import Nft from "./components/Nft";
 
 import NavBar from "./components/NavBar";
 
@@ -20,6 +21,7 @@ function App() {
         <Route component={Projects} path="/projects" />
         <Route component={Resume} path="/resume" />
         <Route component={Contact} path="/contact" />
+        <Route component={Nft} path="/Nft" />
       </Switch>
     </BrowserRouter>
   );

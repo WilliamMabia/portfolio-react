@@ -14,9 +14,9 @@ function NavBar() {
           </NavLink>
         </div>
         <div className="menu">
-          <NavLink to="/" exact activeClassName="text-primary">
+          {/**  <NavLink to="/" exact activeClassName="text-primary">
             Home
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/" exact activeClassName="text-primary">
             About
           </NavLink>
@@ -26,6 +26,9 @@ function NavBar() {
           {/* <NavLink to="/resume" target="_blank" activeClassName="text-primary">
             Resume
           </NavLink>*/}
+          <NavLink to="/Nft" activeClassName="text-primary">
+            NFTs
+          </NavLink>
           <NavLink to="/contact" activeClassName="text-primary">
             Contact
           </NavLink>
