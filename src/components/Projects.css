@@ -14,28 +14,28 @@
 
 .project-1 {
   grid-area: one;
-  background-color: #111;
+  background-color: #fff;
   border-radius: 10px;
   padding: 15px 10px;
   padding-bottom: 20px;
 }
 .project-2 {
   grid-area: two;
-  background-color: #111;
+  background-color: #fff;
   border-radius: 5px;
   padding: 10px 10px;
   padding-bottom: 20px;
 }
 .project-3 {
   grid-area: three;
-  background-color: #111;
+  background-color: #fff;
   border-radius: 5px;
   padding: 10px 10px;
   padding-bottom: 20px;
 }
 .project-4 {
   grid-area: four;
-  background-color: #111;
+  background-color: #fff;
   border-radius: 5px;
   padding: 10px 10px;
   padding-bottom: 20px;

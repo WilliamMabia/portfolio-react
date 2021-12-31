@@ -78,7 +78,7 @@ function Home() {
       <section id="landing-page">
         <div className="container">
           <div class="top-left">
-            <img class="memoji" src={image} alt="profile picture" />
+            <img class="memoji" src={image} alt="" />
           </div>
           <div class="top-rt">
             <h1>Hi</h1>
