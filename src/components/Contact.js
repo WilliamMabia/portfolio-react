@@ -14,7 +14,7 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "gmail",
+        "service_kh8utd7",
         "template_4lkr1jt",
         form.current,
         "user_BP7gSFpkZ0nZQDuuePoQy"
