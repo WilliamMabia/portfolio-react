@@ -60,3 +60,35 @@
   padding-top: 20px;
   grid-area: bottom;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+  #landing-page {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  #landing-page .memoji {
+    height: 100px;
+  }
+  #landing-page .container {
+    display: block;
+    padding-top: 50px;
+  }
+  #landing-page .top-left {
+    display: none;
+  }
+
+  .top-rt {
+    padding-top: 20px;
+    font-size: 100px;
+    padding-bottom: 50px;
+  }
+  .top-rb {
+  }
+
+  .bottom {
+    padding-top: 20px;
+    width: 100%;
+  }
+}

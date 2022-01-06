@@ -56,3 +56,15 @@ main {
 .submit:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 1200px) {
+  main {
+    padding: 20px 130px;
+  }
+}
+
+@media (max-width: 1200px) {
+  main {
+    padding: 20px 100px;
+  }
+}

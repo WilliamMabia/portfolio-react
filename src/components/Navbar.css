@@ -25,6 +25,26 @@ NavLink .menu:hover {
   cursor: pointer;
 }
 
+/* Mobile */
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  #navbar a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+}
+
 /*
 
 #navbar .right {
