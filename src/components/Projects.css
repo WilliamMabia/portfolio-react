@@ -118,3 +118,9 @@
     padding: 30px 150px;
   }
 }
+
+@media (max-width: 375px) {
+  .list {
+    padding: 20px 40px;
+  }
+}
