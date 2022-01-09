@@ -96,11 +96,11 @@ function Home() {
           <div class="bottom">
             <Link to="./contact">
               <p class="text-grey">
-                I specialize in
+                I have profound interest in
                 <span class="text-primary">
                   {" "}
-                  software engineering, full-stack development, and user
-                  experience design
+                  software development, data analysis, full-stack development,
+                  and everything in between
                 </span>{" "}
                 with a passion for building products for the future.
               </p>
