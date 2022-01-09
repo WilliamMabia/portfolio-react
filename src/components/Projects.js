@@ -34,7 +34,7 @@ function Project() {
       <p className="header">
         Projects.{" "}
         <span className="text-grey">
-          Take a look at some the projects I have worked on
+          Take a look at some of the projects I have worked on
         </span>
       </p>
       <div className="body">
@@ -116,8 +116,7 @@ function Project() {
             <div className="project-description">
               Personal Side Project.{" "}
               <span className="text-grey">
-                A couple of JavaScript games I made will incorporate them into
-                this website
+                A couple of games I made using vanilla JavaScript.
               </span>
             </div>
             <div className="technologies">
