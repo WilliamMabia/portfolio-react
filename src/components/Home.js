@@ -94,22 +94,19 @@ function Home() {
             </p>
           </div>
           <div class="bottom">
-            <Link to="./contact">
-              <p class="text-grey">
-                I have profound interest in
-                <span class="text-primary">
-                  {" "}
-                  software development, data analysis, full-stack development,
-                  and everything in between
-                </span>{" "}
-                with a passion for building products for the future.
-              </p>
-            </Link>
             <p class="text-grey">
-              I am at my best when working with a team under tough constraints
-              to deliver beautiful, usable, scalable solutions that add value to
-              the lives of human beings everywhere.
+              I have profound interest in
+              <span class="text-primary">
+                {" "}
+                software development, data analysis, full-stack development, and
+                everything in between
+              </span>{" "}
+              with a passion for building products for the future. I am at my
+              best when working with a team under tough constraints to deliver
+              beautiful, usable, scalable solutions that add value to the lives
+              of human beings everywhere.
             </p>
+            <Link to="./contact"></Link>
           </div>
         </div>
       </section>
